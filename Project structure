@@ -1,0 +1,28 @@
+iris-flower-classification/
+│
+├── data/
+│   ├── raw/iris.csv                # Original dataset
+│   └── processed/                  # Processed data files
+│
+├── notebooks/
+│   ├── 1_eda_visualization.ipynb   # Exploratory analysis
+│   ├── 2_preprocessing.ipynb       # Data preparation
+│   └── 3_model_training.ipynb      # Classification models
+│
+├── src/
+│   ├── preprocess.py               # Data cleaning functions
+│   ├── train.py                    # Model training script
+│   └── evaluate.py                 # Model evaluation
+│
+├── models/
+│   ├── iris_classifier.pkl         # Saved model
+│   └── metrics.txt                # Evaluation metrics
+│
+├── reports/
+│   ├── figures/                   # Visualization images
+│   │   ├── feature_distribution.png
+│   │   └── confusion_matrix.png
+│   └── report.md                  # Final report
+│
+├── requirements.txt               # Dependencies
+└── README.md                      # Project overview
